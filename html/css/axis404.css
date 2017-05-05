@@ -1,0 +1,144 @@
+/*
+Theme Name: AXIS 
+Version: 1.0
+Author: ACIT JAZZ - 2012
+*/
+@import url('animate.css');
+@import url('reset.css');
+@import url('../font/danley.css');
+body {
+	background:#FFF;
+	font-size:14px;
+	line-height:1.4;
+	color:#333333;
+    font-family: 'danley_editregular', helvetica, arial;
+	overflow-x:hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'danley_editregular', helvetica, arial;
+	margin:0 0 15px 0;
+}
+h1,h3{
+	color:#cc0066;
+}
+h1{
+	font-size:40px;
+}
+h2{
+	color:#660066;
+	font-size:18px;
+}
+h3{
+	font-size:20px;
+}
+a {
+	outline:none;
+	color:#4D207A;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover{
+	color:#ee2b74;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.boxShadow{
+	box-shadow:0 0 5px #ccc;
+	border-bottom:solid 1px #eaeaea;
+}
+.white{
+	color:#fff;
+}
+.orange{
+	color:#fdb813;
+}
+.pink{
+	color:#EE2B74;
+}
+.purple{
+	color:#7A1878;
+}
+/* ============ LAYOUT =================*/
+#body{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+	min-height:585px;
+	top:50px;
+}
+.img404{
+	position:absolute;
+	width:620px; height:585px;
+}
+.entry404{
+	width:500px;
+	height:500px;
+	position:absolute;
+	z-index:2;
+	left:450px;
+	top:100px;
+}
+.searchTop{
+	background:url(../images/search.png) no-repeat;
+	width:493px;
+	height:29px;
+	position:relative;
+}
+.searchTop input[type=text]{
+	width:445px;
+	background:none;
+	height:18px;
+	border:none;
+}
+.searchTop input[type=text]:focus{
+	box-shadow:none;
+}
+.searchTop input[type=submit],.searchTop input[type=button]{
+	width:23px;
+	height:23px;
+	background:none;
+	border:none;
+	cursor:pointer;
+	background:url(../images/icon/search.png) no-repeat;
+	position:absolute;
+	right:5px;
+	top:3px;
+}
+.searchTop input[type=submit]:hover{
+	background:url(../images/icon/search_hover.png) no-repeat;
+}
+a.back{
+	background:url(../images/arrow_back.png) no-repeat right;
+	display:table;
+	margin:20px 0 0;
+	font-size:30px;
+	color:#cc0066;
+	text-decoration:none;
+	padding:0 60px 0 0;
+    font-family: 'danley_editregular', helvetica, arial;
+}
+a.back:hover{
+	color:#660066;
+}
+.gsc-search-button input.gsc-search-button{
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	padding:5px;
+	margin:3px 3px;
+}
+.gsc-input .gsc-input-box{
+	height:28px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:solid 1px #999;
+}

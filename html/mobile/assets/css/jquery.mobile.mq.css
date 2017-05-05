@@ -1,0 +1,402 @@
+/*
+ * CSS Media Query
+ * 
+ * 	- Because the design is set to 720px, we need to do special trict for browser under 720px
+ */
+
+@media screen and (max-width: 600px){
+/* start media query */
+
+/* general */
+
+img{
+	max-width: 100%;
+}
+.ui-header{
+	height: auto;
+	/* min-height: 160px; */
+	max-height: 215px;
+	overflow: hidden;
+	padding: 0 0 2% 0;
+}
+	
+/* branding */
+.branding{
+	width: 44.4%;
+	max-width: 230px;
+	padding: 7px;
+}
+	.branding img{
+		width: 100%;
+	}
+	
+.page-header{
+	position: relative;
+}	
+
+/* wrapper for form search+header info */
+.page-header .wrapper{
+	float: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	width: 44%;
+}	
+
+/* form search */
+.search-wrapper{
+	width: 100%;
+	max-width: 370px;
+}
+	.search-wrapper input.search-keyword{
+		padding: 4.44% 8.88px;
+		font-size: 70%;
+	}
+	.search-form .ui-input-search{
+		width: 100%;
+		max-width: 370px;
+	}
+	.search-form .ui-icon-searchfield:after {
+		background: none;
+	}
+
+/* header info */
+.ui-header .header-info{
+	width: 100%;
+	max-width: 370px; 
+	font-size: 0.9em;
+}
+
+/* breadcrumb */
+.breadcrumb{
+	top: 85%;
+	left: 7px;
+	padding-bottom: 3px;
+}
+	.breadcrumb a.ui-link,
+	.breadcrumb a.ui-link:visited,
+	.breadcrumb span{
+		font-size: 1em;
+	}
+
+
+/*
+ * BODY
+ * 
+ */
+
+/* page title */
+h1.page-title{
+	margin: 0 7px 15px 7px;
+	padding-left: 37px;
+	text-indent: -37px;
+	font-size: 1.7em;
+}
+	h1.page-title .icon{
+		width: 15px;
+		height: 11px;
+		max-width: 30px;
+		max-height: 22px;
+		background: url(../images/sprite.png) no-repeat 0 -90px;
+		background-size: 150px 160px;  /* 300x320 */
+		margin: 0 20px 0 0;
+		vertical-align: middle;
+	}
+	
+	/* spesial icon for the page title */
+	#page-life-film h1.page-title .icon,
+	#page-life-film-detail h1.page-title .icon{
+		width: 26px;
+		height: 26px;
+		max-width: 52px;
+		max-height: 52px;
+		margin: 0 10px 0 0;
+		background: url(../images/sprite.png) no-repeat 0 -108.5px;
+		background-size: 150px 160px;  /* 300x320 */
+		vertical-align: middle;
+	}
+
+
+/* page meta */
+.page-meta{
+	min-height: 250px;
+	background: url(../images/bg-content-text-1.jpg) no-repeat right bottom;
+}
+
+/* background for page-meta */
+#page-life-film-detail .page-meta{
+	background: url(../images/bg-content-text-4.jpg) no-repeat center top;
+	background-size: 100% 100%;
+	min-height: auto;
+}
+	
+/* page image heading */
+#page-life-film-detail .page-image-heading{
+	width: 100%;
+	max-width: 660px;
+	margin: 0 auto 15% auto;
+	padding: 0 0 15px 0;
+}	
+
+		
+/* page excerpt */
+.page-excerpt{
+	font-size: 1em;
+	line-height: 1.6em;
+	padding: 0 7px;
+}
+
+
+/* page main content */
+.page-content{
+	padding: 7px;
+	margin: 0 0 25px 0;
+}
+	.page-content article{
+		margin-left: 35px;
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+
+/* rating */
+.rating{
+	height: 20px;
+	margin: 15px 0 0 0;
+}
+	.rating .star{
+		display: inline-block;
+		width: 20.5px;
+		height: 19.5px;
+		max-width: 41px;
+		max-height: 39px;
+		background: url(../images/sprite.png) repeat-x 0 -135px;
+		background-size: 150px 160px;  /* 300x320 */
+		margin-right: 10px;
+	}
+		
+	
+/* main navigation */
+.list-nav{
+	margin: 0 7px;
+}
+	.list-nav li.ui-li.ui-btn{
+		margin-bottom: 5%;
+	}
+	.list-nav a{
+		font-size: 0.9em;
+		line-height: 0.9em;
+		vertical-align: middle;
+	}
+	
+	.list-nav .ui-icon{
+		width: 11px;
+		height: 18px;
+	}
+	.list-nav .ui-icon-arrow-r{
+		background: url(../images/sprite.png) no-repeat 0 -68px;
+		background-size: 150px 160px;  /* 300x320 */
+	}
+	
+	.list-nav > .ui-btn-inner > .ui-icon, 
+	.list-nav .ui-btn-icon-right > .ui-btn-inner > .ui-icon {
+	    margin-top: 0;
+	    position: absolute;
+	    top: 17px;
+	}
+	.list-nav .icon{
+		width: 35px;
+		height: 30px;
+		display: inline-block;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	
+
+/* page content list */
+	.page-content-list a{
+		font-size: 0.9em;
+		line-height: 4em;
+	}
+	.page-content-list li.ui-li.ui-btn{
+		margin-bottom: 5%;
+		padding: 3px;
+		min-height: 40px;
+	}
+		.page-content-list li .ui-btn-inner{
+			padding: 1px 0;
+			border: none;
+		}
+		
+	.page-content-list .ui-li-thumb{
+		width: 39%;
+		height: 100%;
+		max-width: 252px;
+		max-height: 131px;
+		-moz-border-radius: .4em /*{global-radii-blocks}*/;
+		-webkit-border-radius: .4em /*{global-radii-blocks}*/;
+		border-radius: .4em /*{global-radii-blocks}*/;
+	}
+	
+	.page-content-list .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, 
+	.page-content-list .ui-li-static.ui-li-has-thumb {
+	    padding-left: 42%;
+	}
+	
+	.page-content-list .ui-icon{
+		width: 11px;
+		height: 18px;
+	}
+	.page-content-list .ui-icon-arrow-r{
+		background: url(../images/sprite.png) no-repeat 0 -68px;
+		background-size: 150px 160px;  /* 300x320 */
+	}
+	
+	.page-content-list > .ui-btn-inner > .ui-icon, 
+	.page-content-list .ui-btn-icon-right > .ui-btn-inner > .ui-icon {
+	    margin-top: 0;
+	    position: absolute;
+	    top: 38%;
+	}
+	.page-content-list .icon{
+		display: none;
+	}
+	
+	.page-content-list .text{
+		vertical-align: middle;
+	}
+
+
+/* PAGE MANUAL ACTIVATION */
+#manual-activation{
+	margin: 0 0 30px 0;
+	padding: 0 7px;
+}
+	#manual-activation h3{
+		font-size: 1.1em;
+		font-weight: normal;
+	}
+	#manual-activation p{
+		font-size: 1em;
+		line-height: 1.3em;
+	}
+
+	#manual-activation li{
+		margin: 4% 0;
+	}
+	#manual-activation div{
+		width: 70%;
+	}
+	#manual-activation .thumb{
+		background-size: 162.5px 660px;
+	}
+	
+	
+	/* The thumbnail */
+	#manual-activation .activation-step-1 .thumb{
+		width: 100px;
+		height: 90.5px;
+		background-position: 0 0;
+	}
+	#manual-activation .activation-step-2 .thumb{
+		width: 162.5px;
+		height: 175.5px;
+		background-position: 0 -90px;
+	}
+	#manual-activation .activation-step-3 .thumb{
+		width: 131px;
+		height: 117.5px;
+		background-position: 0 -265px;
+	}
+	#manual-activation .activation-step-4 .thumb{
+		width: 103px;
+		height: 100px;
+		background-position: 0 -382px;
+	}
+	#manual-activation .activation-step-5 .thumb{
+		width: 131.5px;
+		height: 173px;
+		background-position: 0 -482px;
+	}
+		
+		
+/*
+ * FOOTER
+ * 
+ * */
+.page-footer{
+	padding: 10px 7px;
+	min-height: auto;
+}
+
+/* social media */
+.social-media{
+	width: 120px;
+}
+.social-media li{
+	margin-left: 2%;
+}
+	.social-media li a{
+		width: 27.5px;
+		height: 27px;
+		background: url(../images/sprite.png) no-repeat -30px 0;
+		background-size: 150px 160px;  /* 300x320 */
+		
+	}
+	.social-media li.facebook a{
+		background-position: -30px 0;
+	}
+	.social-media li.twitter a{
+		background-position: -30px -27px;
+	}
+	.social-media li.google a{
+		background-position: -30px -54px;
+	}
+	.social-media li.youtube a{
+		background-position: -30px -81px;
+	}
+	
+/* link full site */
+a.ui-link.link-fullsite{
+	font-size: 1em;
+}
+
+
+/* end of media query */	
+}
+
+
+
+@media screen and (max-width: 320px){
+
+/* header info */
+.ui-header .header-info{
+	font-size: 0.55em;
+}
+
+/* breadcrumb */
+.breadcrumb a.ui-link,
+.breadcrumb a.ui-link:visited,
+.breadcrumb span{
+	font-size: 0.8em;
+}
+
+
+/* PAGE MANUAL ACTIVATION */
+#manual-activation{
+	min-height: 765px;
+}
+	#manual-activation h3{
+		font-size: 0.9em;
+		font-weight: normal;
+	}
+	#manual-activation p{
+		font-size: 0.8em;
+		line-height: 1.2em;
+	}
+	#manual-activation div{
+		width: 55%;
+	}
+	
+}

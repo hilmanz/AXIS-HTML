@@ -1,0 +1,95 @@
+
+/* ============ ICON =================*/
+
+.icon_smiles{
+	background-image:url(../images/icon/s_smile.png);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+.icon_setting{
+	background-image:url(../images/icon/s_setting.png);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+.icon_related{
+	background-image:url(../images/icon/s_related.png);
+	background-position:0 2px;
+	background-repeat:no-repeat;
+}
+.icon_mail{
+	background-image:url(../images/icon/s_mail.png);
+	background-repeat:no-repeat;
+	background-position:0 2px;
+}
+.social a{
+	background-image:url(../images/icon/social.png);
+	background-repeat:no-repeat;
+	opacity:0.8;
+	display:block;
+	width:25px; height:25px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.icon_palu{
+	background-image:url(../images/icon/icon_palu.png);
+	background-repeat:no-repeat;
+}
+.icon_mic{
+	background-image:url(../images/icon/icon_mic.png);
+	background-repeat:no-repeat;
+}
+.icon_check{
+	background-image:url(../images/icon/icon_check.png);
+	background-repeat:no-repeat;
+}
+.icon_group{
+	background-image:url(../images/icon/icon_group.png);
+	background-repeat:no-repeat;
+}
+.icon_hand{
+	background-image:url(../images/icon/icon_hand.png);
+	background-repeat:no-repeat;
+}
+.icon_hand2{
+	background-image:url(../images/icon/icon_hand2.png);
+	background-repeat:no-repeat;
+}
+.icon_event{
+	background-image:url(../images/icon/icon_event.png);
+	background-repeat:no-repeat;
+}
+.icon_info{
+	background-image:url(../images/icon/icon_info.png);
+	background-repeat:no-repeat;
+}
+.icon_inklusi{
+	background-image:url(../images/icon/icon_inklusi.png);
+	background-repeat:no-repeat;
+}
+.icon_chain{
+	background-image:url(../images/icon/icon_chain.png);
+	background-repeat:no-repeat;
+}
+.icon_strategi{
+	background-image:url(../images/icon/icon_strategi.png);
+	background-repeat:no-repeat;
+}
+.icon_bisnis{
+	background-image:url(../images/icon/icon_bisnis.png);
+	background-repeat:no-repeat;
+}
+.social a:hover{
+	opacity:1;
+}
+.icon_fb{
+	background-position:0;
+}
+.icon_twit{
+	background-position:-29px 0;
+}
+.icon_gplus{
+	background-position:-59px 0;
+}
+.icon_youtube{
+	background-position:-87px 0;
+}

@@ -1,0 +1,79 @@
+
+#language{
+	float:right;
+	padding:40px 0 10px 0;
+}
+#language a.flagid,#language a.flagen{
+	background:url(../images/id.png) no-repeat;
+	display:block;
+	width:20px; height:12px;
+	padding:0 0 0 22px;
+	line-height:12px;
+	font-size:12px;
+	color:#666;
+	font-weight:normal;
+	float:right;
+	text-decoration:none;
+}
+#language a.flagen{
+	background:url(../images/en.png) no-repeat;
+	right:40px;
+	margin:0 0 0 10px;
+}
+.paging{
+	padding:20px 0;
+	text-align:center;
+}
+.ui-mobile-viewport .paging a{
+	background:#630460;
+	display:inline-block;
+	width:30px; height:30px;
+	line-height:28px;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	border:none;
+	color:#fff;
+	font-size:12px;
+	margin:0 5px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.ui-mobile-viewport .paging a:hover,.ui-mobile-viewport .paging a.current{
+	background:#ee2b74;
+	color:#fff;
+}
+.produkbox,.customerbox{
+	background:#EE2B74;
+	padding:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	position:relative;
+	color:#fff;
+	margin:20px 10px;
+	text-align:center;
+	font-size:14px;
+}
+.produkbox a.detail{
+	margin:10px auto;
+}
+.produkbox h1,.customerbox h1{
+	margin:0;
+	text-transform:uppercase;
+	font-size:28px;
+}
+.customerbox h1{
+	font-size:18px;
+	margin:0 0 10px 0;
+}
+.customerbox a.chatNow{
+	margin:10px auto;
+}
+.callNumber{
+	color:#fdb813;
+	font-size:18px;
+	display:block;
+	margin:5px 0;
+}

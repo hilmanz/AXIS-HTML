@@ -1,0 +1,134 @@
+/*
+Theme Name: AXIS 
+Version: 1.0
+Author: ACIT JAZZ - 2012
+*/
+@import url('../font/familiarpro.css');
+body {
+	background:#FFF;
+	font-size:14px;
+	line-height:1.4;
+	color:#333333;
+    font-family: 'FamiliarProBold';
+	position:relative;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px 0;
+	font-weight:normal;
+}
+a {
+	outline:none;
+	color:#4D207A;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover{
+	color:#ee2b74;
+}
+/* ============ LAYOUT =================*/
+#body{
+	position:relative;
+}
+#head{
+	background:#fff;
+	position:fixed;
+	height:162px;
+	z-index:10000;
+	width:100%;
+	left:0;
+}
+#headContainer{
+	height:160px;
+}
+#top{
+	height:94px;
+	position:relative;
+	width:1030px;
+	margin:0 auto;
+}
+#logo{
+	background:url(../images/logo_countdown.jpg) no-repeat;
+	display:block;
+	width:139px;
+	height:87px;
+	margin:30px auto;
+}
+
+#countdown{
+	background:#902492;
+	border-radius:20px;
+	width:800px;
+	display:table;
+	padding:0 20px;
+	margin:30px auto 0 auto;
+	position:relative;
+	color:#fff;
+	height:215px;
+}
+.dash {
+	width: 230px;
+	height: 205px;
+	float: left;
+	margin:0 0 0 0;
+	position: relative;
+}
+.space{
+	float:left;
+	height:160px;
+	font-size: 200px;
+	display:block;
+	line-height:190px;
+	width:50px;
+	text-align:center;
+	text-indent:-10px;
+}
+.dash .digit {
+	font-size: 200px;
+	float: left;
+	width:115px;
+	line-height:190px;
+	height:180px;
+	overflow:hidden;
+	text-align: center;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	font-size: 20px;
+	width:230px;
+	text-align:center;
+	color:#ee2b74;
+	left:0;
+	text-transform:capitalize;
+}
+
+.weeks_dash,.days_dash{
+	display:none;
+}
+
+#footer{
+	text-align:center;
+	color:#902492;
+}
+#footer h1{
+	margin:20px 0 80px 0;
+	font-size:45px;
+	text-transform:uppercase;
+}
+.oldWeb{
+	background:url(../images/btn_oldweb.png) no-repeat;
+	width:229px; height:39px;
+	margin:0 auto;
+	display:block;
+	text-decoration:none;
+}
+.oldWeb:hover{
+	background:url(../images/btn_oldweb.png) no-repeat 0 -39px;
+}

@@ -1,0 +1,237 @@
+/*
+Theme Name: AXIS 
+Version: 1.0
+Author: ACIT JAZZ - 2012
+*/
+@import url('../font/familiarpro.css');
+body {
+	background:url(../images/bg_teaser.jpg) center top no-repeat #FFF;
+	font-size:14px;
+	line-height:1.4;
+	color:#333333;
+    font-family: 'FamiliarProBold';
+	position:relative;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px 0;
+	font-weight:normal;
+}
+a {
+	outline:none;
+	color:#4D207A;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover{
+	color:#ee2b74;
+}
+/* ============ LAYOUT =================*/
+#body{
+	position:relative;
+	max-width:560px;
+	margin:0 auto;
+	padding:50px 0 0 0;
+}
+#banner img{
+	width:100%;
+}
+#head{
+	background:#fff;
+	position:fixed;
+	height:162px;
+	z-index:10000;
+	width:100%;
+	left:0;
+}
+#headContainer{
+	height:160px;
+}
+#top{
+	height:94px;
+	position:relative;
+	width:1030px;
+	margin:0 auto;
+}
+
+#countdown{
+	height:80px;
+	margin:30px auto 0 auto;
+	position:relative;
+	color:#902492;
+}
+#countdown_dashboard {
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top:-5px;
+    width:200px;
+}
+.messageTeaser{
+	position:absolute;
+	left:180px;
+	top:2px;
+}
+.messageTeaser h2{
+	font-size:16px;
+}
+.dash {
+	float: left;
+	margin:0 0 0 0;
+	position: relative;
+}
+.space{
+	float:left;
+	font-size: 40px;
+	display:block;
+	text-align:center;
+}
+.dash .digit {
+	font-size: 40px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 23px;
+	font-size: 12pt;
+	width:130px;
+	text-align:center;
+	color:#ee2b74;
+	text-transform:capitalize;
+}
+
+.weeks_dash,.days_dash{
+	display:none;
+}
+.rowBtn{
+	overflow:hidden;
+	padding:20px 0;
+}
+.rowBtn a{
+	display:block;
+	background:#ee2b74;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	border-radius:10px;
+	width:200px;
+	margin:0 auto;
+}
+.rowBtn a:hover{
+	background:#902492;
+}
+.col2 span{
+	display:block;
+	line-height:40px;
+	color:#666666;
+	text-align:center;
+	font-size:18px;
+}
+.col2{
+	width:50%;
+	float:left;
+}
+.rssRamalan{
+	clear:both;
+}
+.rssRamalan ul li a{
+	color:#666;
+	text-decoration:underline;
+	font-size:12px;
+	font-weight:normal;
+}
+.rssRamalan ul li a:hover{
+	color:#ee2b74;
+}
+.rssRamalan ul li{
+	padding:3px 0;
+}
+.rssRamalan h2{
+	background:url(../images/icon.jpg) no-repeat 10px 26px;
+	color:#902492;
+	padding:20px 0 20px 40px;
+	border-top:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	margin:0 0 20px 0;
+	font-size:18px;
+}
+.finished{
+	display:none;
+}
+#bgpopup{
+	background:url(../images/tr.png) repeat;
+	position:fixed;
+	height:100%; top:0;
+	width:100%; left:0;
+	z-index:9;
+	display:none;
+}
+.popup{
+	position:absolute;
+	left:50%;
+	top:100px;
+	margin:0 0 0 -375px;
+	z-index:10;
+	width:750px;
+	display:none;
+}
+.popupContent{
+	width:750px;
+	overflow:hidden;
+	border-radius:20px;
+	background:#fff;
+	height:690px;
+}
+a.prev{
+	background:url(../images/prev.png) no-repeat;
+	width:74px; height:74px;
+	display:block;
+	opacity:0.8;
+	top:50%;
+	margin:-35px 0 0 0;
+	left:-90px;
+	position:absolute;
+}
+a.next{
+	background:url(../images/next.png) no-repeat;
+	width:74px; height:74px;
+	display:block;
+	opacity:0.8;
+	margin:-35px 0 0 0;
+	top:50%;
+	right:-90px;
+	position:absolute;
+}
+a.prev:hover,
+a.next:hover{
+	opacity:1;
+}
+.socialLike{
+	position:absolute;
+	top:20px;
+	right:0;
+}
+.facebookLike{
+	float:right;
+	overflow:hidden;
+}
+.googlePlus{
+	float:left;
+	margin:2px 0 0 0;
+	width:100px;
+	overflow:hidden;
+}
+.shareTwit{
+	float:left;
+	margin:2px 0 0 0;
+	width:100px;
+	overflow:hidden;
+}

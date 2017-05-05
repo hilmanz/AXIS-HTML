@@ -1,0 +1,312 @@
+/*
+Theme Name: AXIS 
+Version: 1.0
+Author: ACIT JAZZ - 2012
+*/
+@import url('reset.css');
+@import url('icon.css');
+body {
+	background:#ccc;
+	font-size:12px;
+	line-height:1.4;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	max-width:280px;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 5px 0;
+	font-weight:bold;
+}
+h1{
+	font-size:18px;
+}
+h2{
+	font-size:16px;
+}
+h3{
+	font-size:14px;
+}
+h4{
+	font-size:12px;
+}
+a {
+	outline:none;
+	color:#4D207A;
+	text-decoration:none;
+}
+p{
+	margin:10px 0;
+}
+a:hover{
+	color:#ee2b74;
+}
+.left{
+	float:left;
+}
+/* ============ LAYOUT =================*/
+#body{
+	position:relative;
+	width:280px;
+	margin:0 auto;
+	background:#fff;
+}
+#header{
+	padding:0 20px;
+}
+#top{
+	overflow:hidden;
+	border-bottom:solid 1px #ccc;
+	padding:0 0 10px 0;
+}
+#logo{
+	display:block;
+	float:left;
+}
+#logo img{
+	width:100%;
+}
+#language{
+	float:right;
+	padding:25px 0 0 0;
+}
+#language a{
+	padding:0 5px;
+	font-size:11px;
+}
+#userinfo{
+	float:right;
+	padding:10px 0 0 0;
+	text-align:right;
+}
+#userinfo h3{
+	margin:0;
+	color:#4e207a;
+	font-size:14px;
+}
+#userinfo h4{
+	font-size:12px;
+	margin:0;
+}
+#container{
+	padding:20px 0 0 0;
+}
+#banner{
+	padding:0 20px;
+}
+#banner img{
+	width:100%;
+}
+#searchForm{
+	padding:0 20px;
+}
+#searchForm input[type=text]{
+	width:50%;
+	background:#f6f6f6;
+	padding:5px 15px;
+	border:solid 1px #333333;
+	font-size:12px;
+}
+#searchForm input[type=text]:focus{
+	box-shadow:none;
+}
+#searchForm input[type=submit],#searchForm input[type=button]{
+	width:30%;
+	background:#fdb813;
+	padding:5px 15px;
+	border:none;
+	color:#fff;
+	font-size:12px;
+	cursor:pointer;
+}
+#searchForm input[type=submit]:hover,#searchForm input[type=button]:hover{
+	background:#ee2b74;
+}
+#navigation{
+	padding:10px 20px;
+}
+#navigation ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#navigation ul li{
+	margin:10px 0;
+}
+#navigation ul li a{
+	display:block;
+	padding:15px 20px;
+	background: #7a1878;
+	color:#fff;
+	font-size:14px;
+}
+#navigation ul li a:hover{
+	background: #ee2b74;
+}
+.title{
+	background:url(../images/splash.jpg) right bottom no-repeat;
+	padding:0 30px 50px 30px;
+}
+.title h1{
+	color:#7a1878;
+	margin:0;
+	font-size:18px;
+}
+.title p{
+	font-size:12px;
+	color:#ee2b74;
+}
+.list,.detail{
+	background:#f2f2f2;
+	padding:20px;
+}
+.row{
+	background:#7a1878;
+	clear:both;
+	margin:15px 0;
+	overflow:hidden;
+	vertical-align:middle;
+	display:table;
+	width:100%;
+	font-size:12px;
+}
+.searchResult .entryTitle h4{
+	line-height:normal;
+	margin:0;
+}
+.row a{
+	color:#fff;
+	display:block;
+	overflow:hidden;
+	background: #7a1878;
+	padding:0 0 0 0;
+}
+.row .entryTitle{
+	color:#fff;
+	padding:0 20px;
+	width:auto;
+}
+.row a:hover{
+	background: #ee2b74;
+}
+.row a img{
+	float:left;
+	width:80px;
+}
+.row h4{
+	margin:0;
+	font-size:12px;
+}
+.row p{
+	font-size:12px;
+}
+a.btnBack{
+	display:block;
+	padding:10px 30px 10px 20px;
+	background: #7a1878;
+	color:#fff;
+	font-size:12px;
+	text-align:right;
+}
+a.btnBack:hover{
+	background: #ee2b74;
+}
+.rowBtn{
+	clear:both;
+	padding:20px;
+}
+.imgDetail{
+	margin:0 0 10px 0;
+}
+.imgDetail img{
+	width:100%;
+}
+.entryTitle{
+	max-width:300px;
+	color:#7a1878;
+}
+.entryTitle h1{
+	margin:0;
+}
+.entryPost{
+	clear:both;
+	padding:10px 0;
+}
+.paging{
+	padding:10px 20px;
+	text-align:center;
+}
+.paging a{
+	padding:5px 20px;
+	background:#7a1878;
+	color:#fff;
+	text-decoration:none;
+}
+#footer{
+	background:#ee2b74;
+	padding:15px 20px;
+	color:#fff;
+	font-size:11px;
+}
+input[type=text],
+input[type=passowrd],
+input[type=mail],textarea,select{
+	border:solid 1px #ccc;
+	padding:5px;
+	margin:5px 0;
+	width:225px;
+}
+select{
+	width:236px;
+}
+input[type=submit],
+input[type=button]{
+	border:solid 1px #ccc;
+	background:#7a1878;
+	color:#fff;
+	width:auto;
+	margin:20px 0;
+	cursor:pointer;
+}
+.produkbox,.customerbox{
+	background:#7a1878;
+	padding:15px 5px 10px 5px;
+	position:relative;
+	color:#fff;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+.produkbox h1,.customerbox h1{
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-size:18px;
+}
+.produkbox p,.customerbox p{
+	margin:0;
+}
+.customerbox h1{
+	font-size:14px;
+}
+.customerbox a.chatNow{
+	margin:10px auto;
+}
+.callNumber{
+	color:#fdb813;
+	font-size:18px;
+	display:block;
+	margin:5px 0;
+}
+.produkbox{
+	text-align:left;
+	margin:0 0 20px 0;
+}
+.produkbox ol{
+	margin:0 0 0 10px;
+}
+.produkbox ol li{
+	margin:0 0 10px 0;
+}
+.produkbox ol li p,.produkbox ol li h4{
+	margin:0;
+}

@@ -1,0 +1,193 @@
+/*
+Theme Name: AXIS 
+Version: 1.0
+Author: ACIT JAZZ - 2012
+*/
+@import url('reset.css');
+@import url('../font/danley.css');
+@import url('../font/colaborate.css');
+body {
+	background:#FFF;
+	font-size:12px;
+	line-height:1.4;
+	color:#333333;
+    font-family: 'ColaborateLightRegular';
+	overflow-x:hidden;
+	max-width:320px; min-height:600px;
+	background:url(../images/bg.jpg) no-repeat fixed center top;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'danley_editregular', helvetica, arial;
+	margin:0 0 15px 0;
+	color:#7a1878;
+}
+h1{
+	font-size:20px;
+}
+h2{
+	font-size:18px;
+}
+h3{
+	font-size:16px;
+}
+a {
+	outline:none;
+	color:#4D207A;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover{
+	color:#ee2b74;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.boxShadow{
+	box-shadow:0 0 5px #ccc;
+	border-bottom:solid 1px #eaeaea;
+}
+.white{
+	color:#fff;
+}
+.orange{
+	color:#fdb813;
+}
+.pink{
+	color:#EE2B74;
+}
+.purple{
+	color:#7A1878;
+}
+/* ============ LAYOUT =================*/
+#body{
+	position:relative;
+	width:320px;
+	margin:0 auto;
+}
+#head{
+	height:220px;
+	text-align:center;
+	padding:100px 0 0 0;
+}
+#foot{
+	clear:both;
+	text-align:center;
+}
+
+/* ============ BOX =================*/
+#container{
+	position:relative;
+	padding:0 20px;
+	width:280px;
+	text-align:center;
+}
+#welcomeText h1{
+	font-size:16px;
+	margin:0;
+}
+#welcomeText h2{
+	font-size:14px;
+	margin:0;
+}
+.imgBox{
+	width:230px; height:230px;
+	background:#fff;
+	box-shadow:0 2px 2px #000;
+	padding:10px;
+	text-align:center;
+	overflow:hidden;
+}
+.imgBox a{
+	display:block;
+	width:230px; height:230px;
+}
+.imgBox img{
+	width:100%;
+}
+.box{
+	width:250px;
+	padding:0 15px;
+	margin:20px 0 10px 0;
+}
+.contentBox{
+	background:#e7e7e7;
+	clear:both;
+	padding:10px;
+	overflow:hidden;
+	margin:10px 0;
+	border-radius:10px;
+	text-align:left;
+}
+.iconSmile{
+	display:block;
+	float:left;
+	background:url(../images/smile_icon2.png) no-repeat 0 2px;
+	padding:0 0 0 32px;
+	line-height:32px;
+	color:#7a1878;
+	font-size:18px;
+}
+.linkFoot{
+	padding:20px 0 0 0;
+}
+.linkFoot a,a.prev,a.next{
+	padding:0 20px;
+	font-size:16px;
+	background:#ee2b74;
+	margin:0 10px;
+	display:inline-block;
+	line-height:24px;
+	box-shadow:3px 2px 0 #c5b4be;
+	color:#fff;
+	text-align:center;
+}
+a.prev,a.next{
+	font-size:18px;
+	color:#fff;
+	margin:20px 10px 0 10px;
+	line-height:30px;
+}
+a.btnGaleri{
+	display:block;
+	padding:0 20px;
+	font-size:20px;
+	background:#ee2b74;
+	width:80px;
+	margin:0 auto;
+	line-height:30px;
+	box-shadow:3px 2px 0 #c5b4be;
+	color:#fff;
+	text-align:center;
+}
+.linkFoot a:hover,a.btnGaleri:hover,a.prev:hover,a.next:hover{
+	background:#630460;
+}
+.votes{
+	display:block;
+	padding:0 20px;
+	background:#ee2b74;
+	float:right;
+	font-size:18px;
+	color:#fff;
+	line-height:30px;
+	margin:3px 0;
+	text-align:center;
+	box-shadow:3px 2px 0 #c5b4be;
+}
+.votes:hover{
+	background:#ffe716;
+}
+.theContent{
+	width:280px;
+	height:400px;
+	overflow:auto;
+	text-align:left;
+}

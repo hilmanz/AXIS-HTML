@@ -1,0 +1,227 @@
+
+/* ============ ICON =================*/
+.icon_horn{
+	background-image:url(../images/icon/horn.png);
+	background-repeat:no-repeat;
+}
+.icon_star{
+	background-image:url(../images/icon/feature_star.png);
+	background-repeat:no-repeat;
+}
+.icon_cam{
+	background-image:url(../images/icon/feature_cam.png);
+	background-repeat:no-repeat;
+}
+.icon_music{
+	background-image:url(../images/icon/feature_kaset.png);
+	background-repeat:no-repeat;
+}
+.icon_tv{
+	background-image:url(../images/icon/feature_tv.png);
+	background-repeat:no-repeat;
+}
+.icon_volume{
+	background-image:url(../images/icon/s_volume.png);
+	background-repeat:no-repeat;
+}
+.icon_world{
+	background-image:url(../images/icon/s_world.png);
+	background-repeat:no-repeat;
+}
+.icon_toolbox{
+	background-image:url(../images/icon/s_toolbox.png);
+	background-repeat:no-repeat;
+}
+.icon_love{
+	background-image:url(../images/icon/s_love.png);
+	background-repeat:no-repeat;
+}
+.icon_tools{
+	background-image:url(../images/icon/s_tools.png);
+	background-repeat:no-repeat;
+}
+.icon_play{
+	background:url(../images/icon/play.png) no-repeat;
+	display:block;
+	width:48px; height:48px;
+	position:absolute;
+	top:50%; left:50%;
+	margin:-24px 0 0 -24px;
+}
+.pitaTvc,.pitaPromo,.pitaGame{
+	background:url(../images/icon/label_tvc.png) no-repeat;
+	width:89px; height:88px;
+	position:absolute;
+	top:1px;
+	left:-8px;
+}
+.pitaPromo{
+	background:url(../images/icon/label_promo.png) no-repeat;
+	top:-4px;
+}
+.pitaGame{
+	background:url(../images/icon/label_game.png) no-repeat;
+	top:-4px;
+}
+#bannerPromo .pitaPromo{
+	top:1px;
+}
+.social a{
+	background-image:url(../images/icon/social.png);
+	background-repeat:no-repeat;
+	opacity:0.8;
+	display:block;
+	width:25px; height:25px;
+	float:left;
+	margin:0 0 0 5px;
+}
+.social a:hover{
+	opacity:1;
+}
+.icon_fb{
+	background-position:0;
+}
+.icon_twit{
+	background-position:-29px 0;
+}
+.icon_gplus{
+	background-position:-59px 0;
+}
+.icon_youtube{
+	background-position:-87px 0;
+}
+.icon_gear{
+	background:url(../images/icon/icon_gear.png) no-repeat;
+}
+.icon_globe,.icon_iphone,.icon_bundle,.icon_simcard,.icon_chat,.icon_phone{
+	background:url(../images/icon/p_globe.png) no-repeat;
+	display:block;
+	width:75px; height:75px;
+	position:absolute;
+	left:-30px;
+	top:-30px;
+}
+.icon_iphone{
+	background:url(../images/icon/p_iphone.png) no-repeat;
+}
+.icon_bundle{
+	background:url(../images/icon/p_bundle.png) no-repeat;
+}
+.icon_simcard{
+	background:url(../images/icon/p_simcard.png) no-repeat;
+}
+.icon_chat{
+	background:url(../images/icon/p_chat.png) no-repeat;
+}
+.icon_phone{
+	background:url(../images/icon/p_phone.png) no-repeat;
+}
+.icon_horn2{
+	background-image:url(../images/icon/t_horn.png);
+}
+.icon_smile{
+	background-image:url(../images/icon/t_smile.png);
+}
+.icon_house{
+	background-image:url(../images/icon/t_house.png);
+}
+.icon_connector{
+	background-image:url(../images/icon/t_connector.png);
+}
+.icon_games{
+	background-image:url(../images/icon/t_games.png);
+}
+.icon_review{
+	background-image:url(../images/icon/t_review.png);
+}
+.icon_shop{
+	background-image:url(../images/icon/t_shop.png);
+}
+.icon_populer{
+	background-image:url(../images/icon/t_populer.png);
+}
+.icon_coffee{
+	background-image:url(../images/icon/t_coffee.png);
+}
+.icon_register{
+	background-image:url(../images/icon/t_register.png);
+}
+.icon_tworld{
+	background-image:url(../images/icon/t_world.png);
+}
+.icon_movie{
+	background-image:url(../images/icon/t_movie.png);
+}
+.icon_artikel{
+	background-image:url(../images/icon/t_artikel.png);
+}
+.icon_favorite{
+	background-image:url(../images/icon/t_love.png);
+}
+.icon_comment{
+	background-image:url(../images/icon/t_comment.png);
+}
+.iconMail{
+	background-image:url(../images/icon/icon_mail.png);
+	background-repeat:no-repeat;
+}
+.icon_wilayah{
+	background-image:url(../images/icon/icon_wilayah.png);
+	background-repeat:no-repeat;
+}
+.icon_reloaded{
+	background-image:url(../images/icon/icon_reload.png);
+	background-repeat:no-repeat;
+}
+.iconGame{
+	background-image:url(../images/icon/s_game.png);
+	background-repeat:no-repeat;
+}
+.iconWallpaper{
+	background-image:url(../images/icon/s_wallpaper.png);
+	background-repeat:no-repeat;
+}
+.iconRbt{
+	background-image:url(../images/icon/s_rbt.png);
+	background-repeat:no-repeat;
+}
+.iconRingtone{
+	background-image:url(../images/icon/s_ringtone.png);
+	background-repeat:no-repeat;
+}
+.iconGratis{
+	background-image:url(../images/icon/s_gratis.png);
+	background-repeat:no-repeat;
+}
+.iconGame:hover,.active .iconGame{
+	background-image:url(../images/icon/s_game_hover.png);
+}
+.iconWallpaper:hover,.active .iconWallpaper{
+	background-image:url(../images/icon/s_wallpaper_hover.png);
+}
+.iconRbt:hover,.active .iconRbt{
+	background-image:url(../images/icon/s_rbt_hover.png);
+}
+.iconRingtone:hover,.active .iconRingtone{
+	background-image:url(../images/icon/s_ringtone_hover.png);
+}
+.iconGratis:hover,.active .iconGratis{
+	background-image:url(../images/icon/s_gratis_hover.png);
+}
+.commentCount,.shares{
+	background:url(../images/icon/comments.png) no-repeat;
+	display:block;
+	line-height:30px;
+	padding:0 0 0 30px;
+	color:#666666;
+}
+.shares{
+	background:url(../images/icon/share.png) no-repeat;
+}
+/* ============ CAT ICONS =================*/
+.cat_movie{
+	background-image:url(../images/icon/cat/s_tv.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:hidden;
+}

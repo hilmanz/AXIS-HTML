@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)http://preview.kanadigital.com/axis2012/html/countdown/countdown.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXIS - GSM YANG BAIK</title>
+<script language="Javascript" type="text/javascript" src="js/jquery-1.4.1.js"></script>
+<script language="Javascript" type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+<script language="Javascript" type="text/javascript" src="js/misc.js"></script>
+<link rel="stylesheet" type="text/css" href="css/axiscountdown.css">
+
+<style type="text/css">
+<!--
+#add {
+	font-size: 14px;
+	font-family: FamiliarProBold;
+	color: #999;
+}
+-->
+</style>
+</head><body>
+<div id="body">
+    	<a id="logo" href="#">&nbsp;</a>
+	<div id="countdown">
+		<div id="countdown_dashboard">
+			<div class="dash hours_dash">
+				<span class="dash_title">hours</span>
+				<div class="digit"><div class="top" style="display: none;">1</div><div class="bottom" style="display: block;">1</div></div>
+				<div class="digit"><div class="top" style="display: none;">6</div><div class="bottom" style="display: block;">6</div></div>
+			</div>
+			<span class="space">:</span>
+			<div class="dash minutes_dash">
+				<span class="dash_title">minutes</span>
+				<div class="digit"><div class="top" style="display: none;">3</div><div class="bottom" style="display: block;">3</div></div>
+				<div class="digit"><div class="top" style="display: none;">2</div><div class="bottom" style="display: block;">2</div></div>
+			</div>
+			<span class="space">:</span>
+			<div class="dash seconds_dash">
+				<span class="dash_title">seconds</span>
+				<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+				<div class="digit"><div class="top" style="display: none;">0</div><div class="bottom" style="display: block;">0</div></div>
+			</div>
+		</div>
+		<script language="javascript" type="text/javascript">
+			jQuery(document).ready(function() {
+				// Countdown
+				$('#countdown_dashboard').countDown({
+					targetDate: {
+						'day': 		12,
+						'month': 	12,
+						'year': 	2012,
+						'hour': 	12,
+						'min': 		12,
+						'sec': 		12
+					},
+					omitWeeks: true,
+					onComplete: function() 
+					{ 
+						$('#countdown_dashboard').hide(1000)
+					}
+				});
+			});
+		</script>
+	</div><!-- end #countdown -->
+    <div id="footer">
+    <h1>Prepare To Be Amazed</h1>
+  <span id="add">AXIS Customer Service<br />
+  Call: 838 / 08388000838<br />
+  E-mail: <a href="mailto:cs@axisworld.co.id">cs@axisworld.co.id</a><br />
+  Twitter: <a href="http://twitter.com/ask_AXIS">@ask_AXIS</a><br />
+  Facebook: <a href="http://facebook.com/AXISgsm">AXISgsm</a></span></div>
+</div><!-- end #body --></body></html>
